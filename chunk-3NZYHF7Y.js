@@ -1,0 +1,1 @@
+var i=class{constructor(s){this.id=s.id,this.name=s.name,this.barcode=s.barcode,this.description=s.description,this.purchasePrice=s.purchasePrice,this.salePrice=s.salePrice,this.minSalePrice=s.minSalePrice,this.status=s.status,this.genderId=s.genderId,this.percentageDiscount=s.percentageDiscount,this.cashDiscount=s.cashDiscount}};export{i as a};
