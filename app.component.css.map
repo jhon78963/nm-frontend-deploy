@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/app.component.scss"],
-  "sourcesContent": [".progress-spinner {\n  position: fixed;\n  z-index: 3000;\n  height: 2em;\n  width: 2em;\n  overflow: show;\n  margin: auto;\n  top: 0;\n  left: 0;\n  bottom: 0;\n  right: 0;\n}\n\n/* Transparent Overlay */\n.progress-spinner:before {\n  content: '';\n  display: block;\n  z-index: 3000;\n  position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.53);\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,YAAA;AACA,WAAA;AACA,UAAA;AACA,SAAA;AACA,YAAA;AACA,UAAA;AACA,OAAA;AACA,QAAA;AACA,UAAA;AACA,SAAA;;AAIF,CAdA,gBAcA;AACE,WAAA;AACA,WAAA;AACA,WAAA;AACA,YAAA;AACA,OAAA;AACA,QAAA;AACA,SAAA;AACA,UAAA;AACA,oBAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;;",
-  "names": []
-}

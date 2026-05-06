@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/finance/sales/pos/components/pos-selector/pos-selector.component.scss"],
-  "sourcesContent": [".glass-overlay {\n  background: rgba(0, 0, 0, 0.6);\n  backdrop-filter: blur(4px);\n}\n.fadein-animation {\n  animation: fadein 0.2s ease-out;\n}\n.slide-up {\n  animation: slideup 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n}\n@keyframes fadein {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@keyframes slideup {\n  from {\n    transform: translateY(100%);\n    opacity: 0;\n  }\n  to {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n.h-custom {\n  height: 22px;\n}\n.top-custom {\n  top: 20%;\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,cAAA,KAAA,CAAA,EAAA,CAAA,EAAA,CAAA,EAAA;AACA,2BAAA,KAAA;AAAA,mBAAA,KAAA;;AAEF,CAAA;AACE,aAAA,OAAA,KAAA;;AAEF,CAAA;AACE,aAAA,QAAA,KAAA,aAAA,IAAA,EAAA,CAAA,EAAA,GAAA,EAAA;;AAEF,WALE;AAMA;AACE,aAAA;;AAEF;AACE,aAAA;;;AAGJ,WAVE;AAWA;AACE,eAAA,WAAA;AACA,aAAA;;AAEF;AACE,eAAA,WAAA;AACA,aAAA;;;AAGJ,CAAA;AACE,UAAA;;AAEF,CAAA;AACE,OAAA;;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/finance/orders/pages/form/form.component.ts", "src/app/private/finance/orders/pages/form/form.component.html"],
-  "sourcesContent": ["import { Component, OnInit } from '@angular/core';\nimport { ActivatedRoute, Router } from '@angular/router';\n\n@Component({\n  selector: 'app-form',\n  standalone: true,\n  imports: [],\n  templateUrl: './form.component.html',\n  styleUrl: './form.component.scss',\n})\nexport class OrderFormComponent implements OnInit {\n  orderId: number = 0;\n  constructor(\n    private readonly route: ActivatedRoute,\n    private readonly router: Router,\n  ) {\n    if (this.route.snapshot.paramMap.get('id')) {\n      this.orderId = Number(this.route.snapshot.paramMap.get('id'));\n    }\n  }\n\n  ngOnInit(): void {\n    console.log(this.orderId);\n  }\n}\n", "<p>form works!</p>\n"],
-  "mappings": ";;;;;;;;;;;;;;;;AAUM,IAAO,qBAAP,MAAO,oBAAkB;EAE7B,YACmB,OACA,QAAc;AADd,SAAA,QAAA;AACA,SAAA,SAAA;AAHnB,SAAA,UAAkB;AAKhB,QAAI,KAAK,MAAM,SAAS,SAAS,IAAI,IAAI,GAAG;AAC1C,WAAK,UAAU,OAAO,KAAK,MAAM,SAAS,SAAS,IAAI,IAAI,CAAC;IAC9D;EACF;EAEA,WAAQ;AACN,YAAQ,IAAI,KAAK,OAAO;EAC1B;;;uBAbW,qBAAkB,4BAAA,cAAA,GAAA,4BAAA,MAAA,CAAA;IAAA;EAAA;;yEAAlB,qBAAkB,WAAA,CAAA,CAAA,UAAA,CAAA,GAAA,YAAA,MAAA,UAAA,CAAA,6BAAA,GAAA,OAAA,GAAA,MAAA,GAAA,UAAA,SAAA,4BAAA,IAAA,KAAA;AAAA,UAAA,KAAA,GAAA;ACV/B,QAAA,yBAAA,GAAA,GAAA;AAAG,QAAA,iBAAA,GAAA,aAAA;AAAW,QAAA,uBAAA;;;;;;6EDUD,oBAAkB,EAAA,WAAA,qBAAA,CAAA;AAAA,GAAA;",
-  "names": []
-}

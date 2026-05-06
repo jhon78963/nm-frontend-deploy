@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/inventories/products/pages/form/ecommerce/ecommerce-form.component.scss"],
-  "sourcesContent": [".discount-label {\n  font-size: 10px;\n  font-weight: 500;\n  color: #6b6b6b;\n}\n\n.btn-menu {\n  background-color: #dfe3e8;\n  border: 1px solid #dfe3e8;\n  color: #475569;\n  border-radius: 5px;\n  height: 39px;\n}\n.btn-menu-back {\n  background-color: #ffb340;\n  border: 1px solid #ffb340;\n  color: #000;\n  border-radius: 5px;\n  height: 39px;\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,aAAA;AACA,eAAA;AACA,SAAA;;AAGF,CAAA;AACE,oBAAA;AACA,UAAA,IAAA,MAAA;AACA,SAAA;AACA,iBAAA;AACA,UAAA;;AAEF,CAAA;AACE,oBAAA;AACA,UAAA,IAAA,MAAA;AACA,SAAA;AACA,iBAAA;AACA,UAAA;;",
-  "names": []
-}

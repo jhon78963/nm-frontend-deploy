@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/custom-form-components/input-search/input-search.component.scss"],
-  "sourcesContent": [".pi.pi-times {\n  z-index: 1;\n}\n\n.pi.pi-times:hover {\n  cursor: pointer;\n}\n\n.search-icon {\n  position: absolute;\n  left: 0.75rem;\n  top: 52%;\n  color: #83888f;\n  transform: translateY(-50%);\n}\n\n.clear-icon {\n  position: absolute;\n  right: 0.75rem;\n  top: 52%;\n  color: #83888f;\n  transform: translateY(-50%);\n}\n\n.p-inputtext {\n  padding-left: 2.5rem;\n  padding-right: 2.5rem;\n}\n\n.h-custom {\n  height: 37px;\n}\n"],
-  "mappings": ";AAAA,CAAA,EAAA,CAAA;AACE,WAAA;;AAGF,CAJA,EAIA,CAJA,QAIA;AACE,UAAA;;AAGF,CAAA;AACE,YAAA;AACA,QAAA;AACA,OAAA;AACA,SAAA;AACA,aAAA,WAAA;;AAGF,CAAA;AACE,YAAA;AACA,SAAA;AACA,OAAA;AACA,SAAA;AACA,aAAA,WAAA;;AAGF,CAAA;AACE,gBAAA;AACA,iBAAA;;AAGF,CAAA;AACE,UAAA;;",
-  "names": []
-}

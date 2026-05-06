@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/custom-form-components/input-multi-select/input-multi-select.component.scss"],
-  "sourcesContent": ["::ng-deep p-multiselect.float .p-multiselect {\n  border: none;\n  border-bottom: 1px solid #d4d6d9;\n  border-radius: 0;\n  width: 100%;\n}\n\n::ng-deep.float .p-multiselect:not(.p-disabled):hover {\n  box-shadow: none;\n  border-color: var(--primary-color);\n}\n::ng-deep .p-multiselect-label-container {\n  display: inline;\n}\n.p-float-label input:focus ~ label,\n.p-float-label input.p-filled ~ label,\n.p-float-label textarea:focus ~ label,\n.p-float-label textarea.p-filled ~ label,\n.p-float-label .p-inputwrapper-focus ~ label,\n.p-float-label .p-inputwrapper-filled ~ label {\n  top: -0.7rem;\n  left: 0;\n  font-size: 12px;\n}\n"],
-  "mappings": ";AAAA,UAAA,aAAA,CAAA,MAAA,CAAA;AACE,UAAA;AACA,iBAAA,IAAA,MAAA;AACA,iBAAA;AACA,SAAA;;AAGF,UAAA,CAPA,MAOA,CAPA,aAOA,KAAA,CAAA,WAAA;AACE,cAAA;AACA,gBAAA,IAAA;;AAEF,UAAA,CAAA;AACE,WAAA;;AAEF,CAAA,cAAA,KAAA,OAAA,EAAA;AAAA,CAAA,cAAA,KAAA,CAAA,SAAA,EAAA;AAAA,CAAA,cAAA,QAAA,OAAA,EAAA;AAAA,CAAA,cAAA,QAAA,CAAA,SAAA,EAAA;AAAA,CAAA,cAAA,CAAA,qBAAA,EAAA;AAAA,CAAA,cAAA,CAAA,sBAAA,EAAA;AAME,OAAA;AACA,QAAA;AACA,aAAA;;",
-  "names": []
-}

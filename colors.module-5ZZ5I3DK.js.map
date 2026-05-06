@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/inventories/colors/colors-routing.module.ts", "src/app/private/inventories/colors/colors.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [\n  {\n    path: '',\n    loadComponent: () =>\n      import('./pages/list/colors.component').then(c => c.ColorListComponent),\n  },\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule],\n})\nexport class ColorsRoutingModule {}\n", "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { ColorsRoutingModule } from './colors-routing.module';\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, ColorsRoutingModule],\n})\nexport class ColorsModule {}\n"],
-  "mappings": ";;;;;;;;;;;AAGA,IAAM,SAAiB;EACrB;IACE,MAAM;IACN,eAAe,MACb,OAAO,gCAA+B,EAAE,KAAK,OAAK,EAAE,kBAAkB;;;AAQtE,IAAO,sBAAP,MAAO,qBAAmB;;;uBAAnB,sBAAmB;IAAA;EAAA;;wEAAnB,qBAAmB,CAAA;EAAA;;4EAHpB,aAAa,SAAS,MAAM,GAC5B,YAAY,EAAA,CAAA;EAAA;;;;ACJlB,IAAO,eAAP,MAAO,cAAY;;;uBAAZ,eAAY;IAAA;EAAA;;wEAAZ,cAAY,CAAA;EAAA;;4EAFb,cAAc,mBAAmB,EAAA,CAAA;EAAA;;",
-  "names": []
-}

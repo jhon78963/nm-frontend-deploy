@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/administration/users/pages/list/users.component.scss"],
-  "sourcesContent": ["::ng-deep {\n  .dialog-custom-form {\n    width: 30% !important;\n    height: auto !important;\n  }\n\n  .dialog-custom-assign {\n    width: 15% !important;\n    height: auto !important;\n  }\n\n  @media (max-width: 480px) {\n    .dialog-custom-form {\n      width: 70% !important;\n      height: auto !important;\n    }\n\n    .dialog-custom-assign {\n      width: 70% !important;\n      height: auto !important;\n    }\n  }\n}\n"],
-  "mappings": ";AACE,UAAA,CAAA;AACE,SAAA;AACA,UAAA;;AAGF,UAAA,CAAA;AACE,SAAA;AACA,UAAA;;AAGF,OAAA,CAAA,SAAA,EAAA;AACE,YAAA,CAXF;AAYI,WAAA;AACA,YAAA;;AAGF,YAAA,CAXF;AAYI,WAAA;AACA,YAAA;;;",
-  "names": []
-}

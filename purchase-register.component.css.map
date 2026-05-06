@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/inventories/purchase/pages/purchase-register/purchase-register.component.scss"],
-  "sourcesContent": [".purchase-layout {\n  align-items: flex-start;\n}\n\n@media screen and (min-width: 1200px) {\n  .purchase-layout .p-card .p-card-body {\n    padding-top: 0.75rem;\n  }\n}\n\n.input-border {\n  border-color: var(--surface-border, #dee2e6);\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,eAAA;;AAGF,OAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GALF,gBAKE,CAAA,OAAA,CAAA;AACE,iBAAA;;;AAIJ,CAAA;AACE,gBAAA,IAAA,gBAAA,EAAA;;",
-  "names": []
-}

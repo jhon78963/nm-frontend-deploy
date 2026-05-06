@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/services/genders.service.ts"],
-  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { ApiService } from './api.service';\nimport { Gender, GenderListResponse } from '../models/gender.interface';\nimport { map, Observable } from 'rxjs';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class GendersService {\n  constructor(private apiService: ApiService) {}\n  getAll(): Observable<Gender[]> {\n    return this.apiService\n      .get<GenderListResponse>('genders')\n      .pipe(map(response => response.data));\n  }\n  getOne(id: number): Observable<Gender> {\n    return this.apiService.get(`genders/${id}`);\n  }\n}\n"],
-  "mappings": ";;;;;;;;;;AAQM,IAAO,iBAAP,MAAO,gBAAc;EACzB,YAAoB,YAAsB;AAAtB,SAAA,aAAA;EAAyB;EAC7C,SAAM;AACJ,WAAO,KAAK,WACT,IAAwB,SAAS,EACjC,KAAK,IAAI,cAAY,SAAS,IAAI,CAAC;EACxC;EACA,OAAO,IAAU;AACf,WAAO,KAAK,WAAW,IAAI,WAAW,EAAE,EAAE;EAC5C;;;uBATW,iBAAc,mBAAA,UAAA,CAAA;IAAA;EAAA;;4EAAd,iBAAc,SAAd,gBAAc,WAAA,YAFb,OAAM,CAAA;EAAA;;",
-  "names": []
-}

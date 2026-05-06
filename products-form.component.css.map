@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/inventories/products/pages/form/products/products-form.component.scss"],
-  "sourcesContent": [".w-custom {\n  width: 100%;\n}\n@media screen and (max-width: 1200px) {\n  .w-custom {\n    width: 100%;\n    padding-left: 1rem;\n    padding-right: 1rem;\n  }\n}\n.btn-menu {\n  background-color: #dfe3e8;\n  border: 1px solid #dfe3e8;\n  color: #475569;\n  border-radius: 5px;\n  height: 39px;\n}\n.btn-menu-back {\n  background-color: #ffb340;\n  border: 1px solid #ffb340;\n  color: #000;\n  border-radius: 5px;\n  height: 39px;\n}\n::ng-deep {\n  .dialog-custom-form {\n    width: 30% !important;\n    height: auto !important;\n  }\n\n  .dialog-custom-assign {\n    width: 15% !important;\n    height: auto !important;\n  }\n\n  @media (max-width: 480px) {\n    .dialog-custom-form {\n      width: 70% !important;\n      height: auto !important;\n    }\n\n    .dialog-custom-assign {\n      width: 70% !important;\n      height: auto !important;\n    }\n  }\n}\n"],
-  "mappings": ";AAAA,CAAA;AACE,SAAA;;AAEF,OAAA,OAAA,IAAA,CAAA,SAAA,EAAA;AACE,GAJF;AAKI,WAAA;AACA,kBAAA;AACA,mBAAA;;;AAGJ,CAAA;AACE,oBAAA;AACA,UAAA,IAAA,MAAA;AACA,SAAA;AACA,iBAAA;AACA,UAAA;;AAEF,CAAA;AACE,oBAAA;AACA,UAAA,IAAA,MAAA;AACA,SAAA;AACA,iBAAA;AACA,UAAA;;AAGA,UAAA,CAAA;AACE,SAAA;AACA,UAAA;;AAGF,UAAA,CAAA;AACE,SAAA;AACA,UAAA;;AAGF,OAAA,CAAA,SAAA,EAAA;AACE,YAAA,CAXF;AAYI,WAAA;AACA,YAAA;;AAGF,YAAA,CAXF;AAYI,WAAA;AACA,YAAA;;;",
-  "names": []
-}

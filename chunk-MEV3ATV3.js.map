@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/utils/notifications.ts"],
-  "sourcesContent": ["import { MessageService } from 'primeng/api';\n\nexport function showSuccess(\n  messageService: MessageService,\n  message: string,\n): void {\n  messageService.add({\n    severity: 'success',\n    summary: 'Confirmado',\n    detail: message,\n    life: 3000,\n  });\n}\n\nexport function showError(\n  messageService: MessageService,\n  message: string,\n): void {\n  messageService.add({\n    severity: 'error',\n    summary: 'Error',\n    detail: message,\n    life: 3000,\n  });\n}\n\nexport function showToastWarn(\n  messageService: MessageService,\n  message: string,\n): void {\n  messageService.add({\n    severity: 'warn',\n    summary: 'Conflicto',\n    detail: message,\n    life: 15000,\n  });\n}\n"],
-  "mappings": ";AAEM,SAAU,YACd,gBACA,SAAe;AAEf,iBAAe,IAAI;IACjB,UAAU;IACV,SAAS;IACT,QAAQ;IACR,MAAM;GACP;AACH;AAEM,SAAU,UACd,gBACA,SAAe;AAEf,iBAAe,IAAI;IACjB,UAAU;IACV,SAAS;IACT,QAAQ;IACR,MAAM;GACP;AACH;AAEM,SAAU,cACd,gBACA,SAAe;AAEf,iBAAe,IAAI;IACjB,UAAU;IACV,SAAS;IACT,QAAQ;IACR,MAAM;GACP;AACH;",
-  "names": []
-}

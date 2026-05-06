@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/finance/expenses/pages/list/expenses.component.scss"],
-  "sourcesContent": ["::ng-deep {\n  /* Diálogo del Formulario */\n  .dialog-custom-form {\n    /* Desktop: 30% pero NUNCA menos de 400px para que quepa el calendario de PrimeNG */\n    width: 30% !important;\n    min-width: 400px !important;\n\n    max-width: 95vw !important;\n    height: auto !important;\n    /* Importante: para que el dropdown no se corte si el dialog es pequeño */\n    overflow-y: visible !important;\n  }\n\n  /* Diálogo de Asignar (más pequeño) */\n  .dialog-custom-assign {\n    width: 20% !important;\n    min-width: 320px !important; /* Mínimo seguro */\n  }\n\n  /* Tablet (iPad vertical / Horizontal) */\n  @media (max-width: 1024px) {\n    .dialog-custom-form {\n      width: 60% !important;\n      min-width: unset !important;\n    }\n    .dialog-custom-assign {\n      width: 50% !important;\n    }\n  }\n\n  /* Celular */\n  @media (max-width: 480px) {\n    .dialog-custom-form,\n    .dialog-custom-assign {\n      width: 95% !important;\n      min-width: unset !important;\n    }\n  }\n}\n"],
-  "mappings": ";;;AAAA;;AAEE,UAAA,CAAA;AAEE,SAAA;AACA,aAAA;AAEA,aAAA;AACA,UAAA;AAEA,cAAA;;AAIF,UAAA,CAAA;AACE,SAAA;AACA,aAAA;;AAIF,OAAA,CAAA,SAAA,EAAA;AACE,YAAA,CAnBF;AAoBI,WAAA;AACA,eAAA;;AAEF,YAAA,CAXF;AAYI,WAAA;;;AAKJ,OAAA,CAAA,SAAA,EAAA;AACE,YAAA,CA9BF;EA8BE,UAAA,CAlBF;AAoBI,WAAA;AACA,eAAA;;;",
-  "names": []
-}

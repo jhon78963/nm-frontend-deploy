@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/inventories/sizes/sizes-routing.module.ts", "src/app/private/inventories/sizes/sizes.module.ts"],
-  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [\n  {\n    path: '',\n    loadComponent: () =>\n      import('./pages/list/sizes.component').then(c => c.SizeListComponent),\n  },\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule],\n})\nexport class SizesRoutingModule {}\n", "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { SizesRoutingModule } from './sizes-routing.module';\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, SizesRoutingModule],\n})\nexport class SizesModule {}\n"],
-  "mappings": ";;;;;;;;;;;AAGA,IAAM,SAAiB;EACrB;IACE,MAAM;IACN,eAAe,MACb,OAAO,+BAA8B,EAAE,KAAK,OAAK,EAAE,iBAAiB;;;AAQpE,IAAO,qBAAP,MAAO,oBAAkB;;;uBAAlB,qBAAkB;IAAA;EAAA;;wEAAlB,oBAAkB,CAAA;EAAA;;4EAHnB,aAAa,SAAS,MAAM,GAC5B,YAAY,EAAA,CAAA;EAAA;;;;ACJlB,IAAO,cAAP,MAAO,aAAW;;;uBAAX,cAAW;IAAA;EAAA;;wEAAX,aAAW,CAAA;EAAA;;4EAFZ,cAAc,kBAAkB,EAAA,CAAA;EAAA;;",
-  "names": []
-}

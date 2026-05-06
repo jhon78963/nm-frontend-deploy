@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/shared/custom-form-components/table-pagination/table-pagination.component.scss"],
-  "sourcesContent": [".hover:hover {\n  background-color: rgb(244, 244, 244);\n  cursor: pointer;\n}\n\n.width-default {\n  width: 200px;\n}\n\n::ng-deep {\n  .p-paginator {\n    border-radius: 0;\n  }\n}\n"],
-  "mappings": ";AAAA,CAAA,KAAA;AACE,oBAAA,IAAA,GAAA,EAAA,GAAA,EAAA;AACA,UAAA;;AAGF,CAAA;AACE,SAAA;;AAIA,UAAA,CAAA;AACE,iBAAA;;",
-  "names": []
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/private/inventories/products/pages/form/form.component.scss"],
-  "sourcesContent": ["::ng-deep {\n  .p-menuitem-link {\n    width: 100%;\n  }\n}\n\n.cursor-not-allowed {\n  cursor: not-allowed;\n}\n.cursor-accepted {\n  cursor: pointer;\n}\n"],
-  "mappings": ";AACE,UAAA,CAAA;AACE,SAAA;;AAIJ,CAAA;AACE,UAAA;;AAEF,CAAA;AACE,UAAA;;",
-  "names": []
-}
