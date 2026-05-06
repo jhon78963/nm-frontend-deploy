@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/private/directory/vendors/models/vendors.model.ts"],
+  "sourcesContent": ["export interface IVendor {\n  id: number;\n  name: string;\n  /** Opcional al crear desde compras; se completa luego en directorio. */\n  address?: string;\n  local?: string;\n  phone?: string;\n}\n\nexport class Vendor {\n  id: number;\n  name: string;\n  address?: string;\n  local?: string;\n  phone?: string;\n\n  constructor(role: IVendor) {\n    this.id = role.id;\n    this.name = role.name;\n    this.address = role.address ?? '';\n    this.local = role.local;\n    this.phone = role.phone;\n  }\n}\n\nexport interface Paginate {\n  total: number;\n  pages: number;\n}\n\nexport interface VendorListResponse {\n  data: Vendor[];\n  paginate: Paginate;\n}\n"],
+  "mappings": ";AASM,IAAO,SAAP,MAAa;EAOjB,YAAY,MAAa;AACvB,SAAK,KAAK,KAAK;AACf,SAAK,OAAO,KAAK;AACjB,SAAK,UAAU,KAAK,WAAW;AAC/B,SAAK,QAAQ,KAAK;AAClB,SAAK,QAAQ,KAAK;EACpB;;",
+  "names": []
+}

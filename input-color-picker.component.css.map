@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/custom-form-components/input-color-picker/input-color-picker.component.scss"],
+  "sourcesContent": [".input-color {\n  border: none;\n  border-bottom: 1px solid #d4d6d9;\n  border-radius: 0;\n  width: 100%;\n  font-size: 12px;\n  padding: 0.75rem 0.75rem;\n  cursor: pointer;\n}\n\n.input-color:focus-visible {\n  outline: none;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,UAAA;AACA,iBAAA,IAAA,MAAA;AACA,iBAAA;AACA,SAAA;AACA,aAAA;AACA,WAAA,QAAA;AACA,UAAA;;AAGF,CAVA,WAUA;AACE,WAAA;;",
+  "names": []
+}

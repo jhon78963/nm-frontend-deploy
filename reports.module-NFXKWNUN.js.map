@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/private/reports/reports-routing.module.ts", "src/app/private/reports/reports.module.ts"],
+  "sourcesContent": ["import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [\n  {\n    path: '',\n    loadComponent: () =>\n      import('./pages/reports/reports.component').then(c => c.ReportsComponent),\n  },\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule],\n})\nexport class ReportsRoutingModule {}\n", "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { ReportsRoutingModule } from './reports-routing.module';\n\n@NgModule({\n  declarations: [],\n  imports: [CommonModule, ReportsRoutingModule],\n})\nexport class ReportsModule {}\n"],
+  "mappings": ";;;;;;;;;;;AAGA,IAAM,SAAiB;EACrB;IACE,MAAM;IACN,eAAe,MACb,OAAO,iCAAmC,EAAE,KAAK,OAAK,EAAE,gBAAgB;;;AAQxE,IAAO,uBAAP,MAAO,sBAAoB;;;uBAApB,uBAAoB;IAAA;EAAA;;wEAApB,sBAAoB,CAAA;EAAA;;4EAHrB,aAAa,SAAS,MAAM,GAC5B,YAAY,EAAA,CAAA;EAAA;;;;ACJlB,IAAO,gBAAP,MAAO,eAAa;;;uBAAb,gBAAa;IAAA;EAAA;;wEAAb,eAAa,CAAA;EAAA;;4EAFd,cAAc,oBAAoB,EAAA,CAAA;EAAA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/custom-form-components/table-static/table-static.component.scss"],
+  "sourcesContent": [".hover:hover {\n  background-color: rgb(244, 244, 244);\n  cursor: pointer;\n}\n"],
+  "mappings": ";AAAA,CAAA,KAAA;AACE,oBAAA,IAAA,GAAA,EAAA,GAAA,EAAA;AACA,UAAA;;",
+  "names": []
+}

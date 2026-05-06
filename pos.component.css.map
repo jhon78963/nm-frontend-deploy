@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/private/finance/sales/pos/pages/pos.component.scss"],
+  "sourcesContent": [".fadein-animation {\n  animation: fadein 0.3s ease-out;\n}\n@keyframes fadein {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n.item-card {\n  transition: transform 0.1s;\n}\n.item-card:active {\n  transform: scale(0.98);\n}\n/* Estilo para que el scrollbar sea invisible pero funcional */\nmain::-webkit-scrollbar {\n  width: 0px;\n  background: transparent;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,aAAA,OAAA,KAAA;;AAEF,WAFE;AAGA;AACE,aAAA;;AAEF;AACE,aAAA;;;AAGJ,CAAA;AACE,cAAA,UAAA;;AAEF,CAHA,SAGA;AACE,aAAA,MAAA;;AAGF,IAAA;AACE,SAAA;AACA,cAAA;;",
+  "names": []
+}

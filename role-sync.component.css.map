@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/private/administration/roles/pages/form/role-sync.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  min-width: min(90vw, 32rem);\n}\n"],
+  "mappings": ";AAAA;AACE,WAAA;AACA,aAAA,IAAA,IAAA,EAAA;;",
+  "names": []
+}

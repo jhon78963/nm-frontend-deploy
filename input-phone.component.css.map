@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/custom-form-components/input-phone/input-phone.component.scss"],
+  "sourcesContent": [".custom-margin {\n  margin-right: 0.87rem;\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,gBAAA;;",
+  "names": []
+}

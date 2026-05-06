@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/private/finance/sales/pos/components/pos-header/pos-header.component.scss"],
+  "sourcesContent": [".shadow-input {\n  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.1);\n}\n.slide-down {\n  animation: slidedown 0.3s cubic-bezier(0.16, 1, 0.3, 1);\n}\n@keyframes slidedown {\n  from {\n    transform: translateY(-10px);\n    opacity: 0;\n  }\n  to {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,cAAA,EAAA,EAAA,EAAA,IAAA,KAAA,EAAA,EAAA,GAAA,EAAA,GAAA,EAAA;;AAEF,CAAA;AACE,aAAA,UAAA,KAAA,aAAA,IAAA,EAAA,CAAA,EAAA,GAAA,EAAA;;AAEF,WAFE;AAGA;AACE,eAAA,WAAA;AACA,aAAA;;AAEF;AACE,eAAA,WAAA;AACA,aAAA;;;",
+  "names": []
+}

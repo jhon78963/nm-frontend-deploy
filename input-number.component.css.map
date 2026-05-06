@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/custom-form-components/input-number/input-number.component.scss"],
+  "sourcesContent": ["::ng-deep p-inputNumber.float .p-inputtext {\n  border: none;\n  border-bottom: 1px solid #d4d6d9;\n  border-radius: 0;\n  width: 100%;\n}\n\n::ng-deep p-inputNumber.float span {\n  width: 100%;\n}\n\n::ng-deep p-inputNumber.float .p-inputtext.float:enabled:focus {\n  box-shadow: none;\n  border-color: var(--primary-color);\n}\n\n.p-float-label input:focus ~ label,\n.p-float-label input.p-filled ~ label,\n.p-float-label textarea:focus ~ label,\n.p-float-label textarea.p-filled ~ label,\n.p-float-label .p-inputwrapper-focus ~ label,\n.p-float-label .p-inputwrapper-filled ~ label {\n  top: -0.7rem;\n  left: 0;\n  font-size: 12px;\n}\n"],
+  "mappings": ";AAAA,UAAA,aAAA,CAAA,MAAA,CAAA;AACE,UAAA;AACA,iBAAA,IAAA,MAAA;AACA,iBAAA;AACA,SAAA;;AAGF,UAAA,aAAA,CAPA,MAOA;AACE,SAAA;;AAGF,UAAA,aAAA,CAXA,MAWA,CAXA,WAWA,CAXA,KAWA,QAAA;AACE,cAAA;AACA,gBAAA,IAAA;;AAGF,CAAA,cAAA,KAAA,OAAA,EAAA;AAAA,CAAA,cAAA,KAAA,CAAA,SAAA,EAAA;AAAA,CAAA,cAAA,QAAA,OAAA,EAAA;AAAA,CAAA,cAAA,QAAA,CAAA,SAAA,EAAA;AAAA,CAAA,cAAA,CAAA,qBAAA,EAAA;AAAA,CAAA,cAAA,CAAA,sBAAA,EAAA;AAME,OAAA;AACA,QAAA;AACA,aAAA;;",
+  "names": []
+}

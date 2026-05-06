@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/custom-form-components/upload-excel/upload-excel.component.scss"],
+  "sourcesContent": [".card {\n  padding-top: 0;\n}\n.title-uploade {\n  color: gray;\n  font-weight: 700;\n  text-align: center;\n}\n.image-name {\n  font-size: 10px;\n  color: gray;\n  font-weight: 700;\n}\n\n:host ::ng-deep {\n  .p-fileupload-content {\n    border: 0 none;\n  }\n\n  .p-fileupload-row {\n    display: none;\n  }\n\n  .p-progressbar {\n    display: none;\n  }\n\n  .p-fileupload {\n    padding: 0;\n  }\n\n  .p-fileupload-buttonbar {\n    display: none;\n  }\n}\n"],
+  "mappings": ";AAAA,CAAA;AACE,eAAA;;AAEF,CAAA;AACE,SAAA;AACA,eAAA;AACA,cAAA;;AAEF,CAAA;AACE,aAAA;AACA,SAAA;AACA,eAAA;;AAIA,MAAA,UAAA,CAAA;AACE,UAAA,EAAA;;AAGF,MAAA,UAAA,CAAA;AACE,WAAA;;AAGF,MAAA,UAAA,CAAA;AACE,WAAA;;AAGF,MAAA,UAAA,CAAA;AACE,WAAA;;AAGF,MAAA,UAAA,CAAA;AACE,WAAA;;",
+  "names": []
+}

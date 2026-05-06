@@ -1,1 +1,0 @@
-function e(t,r){return r.transform(t,"yyyy-MM-dd HH:mm:ss")}function o(t,r){if(!t)return"";if(typeof t=="string")return t;try{return r.transform(t,"yyyy-MM-dd HH:mm:ss")||""}catch{return""}}export{e as a,o as b};

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/private/finance/financial-summary/pages/form/transaction-modal.component.scss"],
+  "sourcesContent": [".slide-up {\n  animation: slideUp 0.3s ease-out;\n}\n@keyframes slideUp {\n  from {\n    transform: translateY(20px);\n    opacity: 0;\n  }\n  to {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n/* Clase para deshabilitar botón */\n.btn-disabled {\n  opacity: 0.5;\n  cursor: not-allowed !important;\n}\n"],
+  "mappings": ";;;AAAA,CAAA;AACE,aAAA,QAAA,KAAA;;AAEF,WAFE;AAGA;AACE,eAAA,WAAA;AACA,aAAA;;AAEF;AACE,eAAA,WAAA;AACA,aAAA;;;AAIJ,CAAA;AACE,WAAA;AACA,UAAA;;",
+  "names": []
+}

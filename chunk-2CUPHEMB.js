@@ -1,1 +1,0 @@
-function o(r,e){r.add({severity:"success",summary:"Confirmado",detail:e,life:3e3})}function s(r,e){r.add({severity:"error",summary:"Error",detail:e,life:3e3})}function i(r,e){r.add({severity:"warn",summary:"Conflicto",detail:e,life:15e3})}export{o as a,s as b,i as c};

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/services/warehouse.service.ts"],
+  "sourcesContent": ["import { Injectable } from '@angular/core';\nimport { map, Observable } from 'rxjs';\nimport { ApiService } from './api.service';\nimport {\n  Warehouse,\n  WarehouseListResponse,\n} from '../models/warehouse.interface';\n\n@Injectable({\n  providedIn: 'root',\n})\nexport class WarehousesService {\n  constructor(private apiService: ApiService) {}\n\n  /**\n   * @param tenantId Si se indica, filtra tiendas del cliente SaaS.\n   */\n  getAll(tenantId?: number): Observable<Warehouse[]> {\n    let path = 'warehouses';\n    if (tenantId != null) {\n      path += `?tenant_id=${tenantId}`;\n    }\n    return this.apiService.get<WarehouseListResponse>(path).pipe(\n      map(response => response.data),\n    );\n  }\n\n  getOne(id: number): Observable<Warehouse> {\n    return this.apiService.get<Warehouse>(`warehouses/${id}`);\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;AAWM,IAAO,oBAAP,MAAO,mBAAiB;EAC5B,YAAoB,YAAsB;AAAtB,SAAA,aAAA;EAAyB;;;;EAK7C,OAAO,UAAiB;AACtB,QAAI,OAAO;AACX,QAAI,YAAY,MAAM;AACpB,cAAQ,cAAc,QAAQ;IAChC;AACA,WAAO,KAAK,WAAW,IAA2B,IAAI,EAAE,KACtD,IAAI,cAAY,SAAS,IAAI,CAAC;EAElC;EAEA,OAAO,IAAU;AACf,WAAO,KAAK,WAAW,IAAe,cAAc,EAAE,EAAE;EAC1D;;;uBAlBW,oBAAiB,mBAAA,UAAA,CAAA;IAAA;EAAA;;4EAAjB,oBAAiB,SAAjB,mBAAiB,WAAA,YAFhB,OAAM,CAAA;EAAA;;",
+  "names": []
+}
