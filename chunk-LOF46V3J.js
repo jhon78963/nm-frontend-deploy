@@ -1,1 +1,0 @@
-import{H as r,ra as e}from"./chunk-4JTN5A3U.js";var c=(()=>{class t{constructor(){this.snapshot=e(null)}read(){return this.snapshot()}save(s){this.snapshot.set(s)}clear(){this.snapshot.set(null)}static{this.\u0275fac=function(n){return new(n||t)}}static{this.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"})}}return t})();export{c as a};
